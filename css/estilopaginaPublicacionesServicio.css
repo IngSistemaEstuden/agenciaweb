@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+    background: linear-gradient(to right, #001f4d, #004080, #0080ff); /* Fondo degradado con tres colores */
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+.navbar {
+    background-color: #163455; /* Color de fondo del menú de navegación ajustado */
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Color blanco para los enlaces */
+    margin-right: 20px; /* Espacio entre los enlaces */
+}
+.navbar-nav .nav-link:hover {
+    color: #adb5bd !important; /* Color de los enlaces al pasar el cursor */
+}
+.sidebar {
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px;
+}
+.sidebar h4 a {
+    color: #f4f4f9;
+    text-decoration: none;
+}
+.list-group-item {
+    background-color: #495057;
+    color: white;
+    border: none;
+}
+.list-group-item:hover {
+    background-color: #adb5bd;
+    color: black;
+}
+.job-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.job-card h5 {
+    color: #007bff;
+}
+.job-card p {
+    color: #6c757d;
+}
+.job-card small {
+    color: #adb5bd;
+}
+.btn-category {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+    color: white;
+    background-color: #495057;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.btn-category:hover {
+    background-color: #adb5bd;
+    color: black;
+}
+.title-white a {
+    color: white; /* Color blanco para el enlace de publicaciones */
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+    font-weight: 700; /* Peso de fuente */
+    text-transform: uppercase; /* Convertir a mayúsculas */
+}
+.title-white a:hover {
+    color: #adb5bd; /* Color del enlace al pasar el cursor */
+}

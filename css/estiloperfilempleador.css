@@ -1,0 +1,268 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #012147, #00346b, #027381, #046494, #0154a5, #396ed0, #066ee5, #5ea4ff); /* Degradado horizontal */
+    color: #fff;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #123153 !important;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    background-color: #d6d6d6;
+    color: #000000 !important;
+}
+
+.navbar-toggler {
+    border-color: #ffffff00;
+}
+
+.profile-container {
+    padding: 20px;
+    gap: 200px; /* Ajuste del espacio mínimo entre los elementos */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+/* INFORMACION */ 
+.profile-left {
+    background-color: #f9f9f9; /* Establece el color de fondo del contenedor a un tono claro de gris */
+    border-radius: 8px; /* Redondea las esquinas del contenedor con un radio de 8px */
+    padding: 20px; /* Agrega un espacio interno de 20px alrededor del contenido dentro del contenedor */
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5); /* Aplica una sombra al contenedor */
+    margin-bottom: 5px; /* Agrega un margen inferior de 20px para separar el contenedor de otros elementos debajo */
+    width: 70%; /* Ajuste del ancho del contenedor de información */
+    text-align: center;
+}
+
+
+/* Estilos para la sección de currículum (profile-right) */
+.profile-right {
+    background-color: #f9f9f9; /* Establece el color de fondo del contenedor a un tono claro de gris */
+    border-radius: 8px; /* Redondea las esquinas del contenedor con un radio de 8px */
+    padding: 20px; /* Agrega un espacio interno de 20px alrededor del contenido dentro del contenedor */
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px para separar el contenedor de otros elementos debajo */
+}
+
+.profile-left {
+   
+    max-width: 600px;
+    margin-right: 800px;
+    text-align: center;
+}
+
+
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.avatar-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #123153;
+    margin-bottom: 10px;
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    text-align: left;
+    width: 100%;
+    color: #000000;
+    
+}
+
+
+
+.btn-primary {
+    background-color: #0d54bf;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1f2833;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    color: #123153;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #000000;
+}
+
+.btn-group .btn, .btn-group .btn:hover {
+    margin-left: 10px;
+}
+
+.btn-secondary {
+    background-color: #123153;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #0a2c53;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.row {
+    padding-left: 20px; /* Espacio a la izquierda */
+    padding-right: 20px; /* Espacio a la derecha */
+}
+
+
+.profile-info h4 {
+    font-weight: bold;
+    color: #000000;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #34495e;
+}
+
+.profile-info p strong {
+    color: #2980b9;
+}
+.ml-3{
+    color: #012147; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 30px; /* Espacio inferior */
+    font-size: 36px; /* Tamaño de fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    background: linear-gradient(to right, #ffffff00, #0153a500); /* Fondo degradado */
+}
+.text-muted{
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+h1 {
+    color: #012147; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 30px; /* Espacio inferior */
+    font-size: 36px; /* Tamaño de fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    background: linear-gradient(to right, #ffffff00, #0153a500); /* Fondo degradado */
+    
+}
+h5 {
+    color: #012147; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 30px; /* Espacio inferior */
+    font-size: 14px; /* Tamaño de fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    background: linear-gradient(to right, #ffffff00, #0153a500); /* Fondo degradado */
+    
+}
+h9 {
+    color: #ffffff; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 30px; /* Espacio inferior */
+    font-size: 36px; /* Tamaño de fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 3.5px; /* Espaciado entre letras */
+    background: linear-gradient(to right, #ffffff, #ffffff); /* Fondo degradado */
+    -webkit-background-clip: text; /* Solo usar el fondo para el texto */
+    -webkit-text-fill-color: transparent; /* Relleno de color transparente */
+    padding: 10px; /* Relleno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.334); /* Sombra */
+   
+}
+
+/* Publicaciones */
+.publications {
+    padding-left: 20px; /* Espacio a la izquierda */
+    padding-right: 20px; /* Espacio a la derecha */
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 850px) {
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-left, .profile-right {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .profile-left {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    
+}

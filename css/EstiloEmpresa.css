@@ -1,0 +1,138 @@
+.imagen {
+    width: 100%;
+    text-align: center;
+    background-image: url('Imagenes/Docentes.webp'); /* Asegúrate de poner la ruta correcta */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; /* Centra la imagen */
+    height: 600px; /* Ajusta la altura según sea necesario */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar los elementos */
+}
+
+.container {
+    display: flex;
+    width: 80%; /* Ajustar el ancho según sea necesario */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    display: block; /* Cambiar a 'block' para que la etiqueta ocupe una línea completa */
+    margin-bottom: 5px; /* Añadir espacio inferior a la etiqueta */
+}
+
+.apellidos-container {
+    display: flex; /* Usar flexbox para alinear los campos de entrada horizontalmente */
+    justify-content: space-between; /* Distribuir el espacio entre los campos de entrada */
+}
+
+.apellidos-container input[type="text"] {
+    flex: 1; /* Permitir que los campos de entrada se expandan */
+    padding: 8px; /* Añadir relleno interno */
+    border: 1px solid #ccc; /* Estilo de borde */
+    border-radius: 3px; /* Bordes redondeados */
+    margin-right: 5px; /* Añadir espacio lateral entre los campos de entrada */
+}
+
+.imagen {
+    width: 50%; /* Ajustar el ancho de la imagen */
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto; /* Mantener la proporción de aspecto */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    width: 50%; /* Ajustar el ancho del formulario */
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid hsl(210, 28%, 93%);
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #2e6dab;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinear el botón a la derecha */
+    margin-top: auto; /* Permitir que el margen superior ocupe todo el espacio disponible */
+    padding: 20px; /* Espacio alrededor del contenedor */
+    position: absolute; /* Posicionar el contenedor */
+    bottom: 0; /* Fijar en la parte inferior */
+    right: 0; /* Fijar en la parte derecha */
+    width: 100%; /* Asegurar que el contenedor ocupe todo el ancho */
+}
+
+button1 {
+    background-color: #2e6dab;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 3px; /* Espacio superior */
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambiar la dirección a columna en pantallas pequeñas */
+        align-items: center; /* Centrar los elementos dentro del contenedor */
+    }
+
+    .imagen {
+        width: 100%; /* Asegurar que la imagen ocupe todo el ancho */
+        height: 300px; /* Ajustar la altura según sea necesario */
+        margin-bottom: 20px; /* Espacio inferior para separar de la siguiente sección */
+    }
+
+    .formulario {
+        width: 100%; /* Asegurar que el formulario ocupe todo el ancho */
+    }
+}
